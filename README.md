@@ -1,4 +1,4 @@
 # TestGitHubSite
 
 Nothing interesting.
-Gust testing Github.
+Just testing Github.
