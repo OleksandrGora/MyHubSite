@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
     <title>My Github server site</title>
-</head>
-<body>
-    <h1>
-        Hello, Mounting. 
-    </h1>
-    <input src="text">
-</body>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container pt-5 pb-5 bg-secondary text-success">
+      <h1 class="display-3 text-align-center">Hello, Mounting.</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 p-0 bg-danger">
+        <canvas class="canv" id="canvNow" hidpi="on" resize></canvas>
+      </div>
+      <div class="col-sm-4 p-0 bg-success">
+        <canvas class="canv" id="canvNow1" hidpi="on" resize></canvas>
+      </div>
+      <div class="col-sm-4 p-0 bg-info">
+        <canvas class="canv" id="canvNow2" hidpi="on" resize></canvas>
+      </div>
+    </div>
+    <div><a href="/page1.html">Page 1</a></div>
+    <div><a href="/page2.html" target="_blank">Page 2</a></div>
+    <div><a href="/page3.html" target="_blank">Page 3</a></div>
+  </body>
 </html>
