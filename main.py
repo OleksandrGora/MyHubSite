@@ -28,5 +28,5 @@ def page3():
 #     return render_template("styles.css")
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
